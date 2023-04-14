@@ -16,7 +16,7 @@ declare class Engine {
      * engine.debug("Mensagem de depuração");
      * ```
      */
-    debug(message: string): void;
+    debug(message: any): void;
 
     /**
      * @deprecated Método OBSOLETO. Não utilizar. Utilize a biblioteca 'messages' em vez disso.
